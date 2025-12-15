@@ -6,7 +6,6 @@ Repository: [yuwayanagitani/anki-ai-splitter](https://github.com/yuwayanagitani/
 
 Table of contents
 - Features
-- Screenshots
 - Requirements
 - Installation
   - Install from Anki (if distributed via AnkiWeb)
@@ -34,14 +33,6 @@ Table of contents
 - Preview generated splits before committing them to your collection.
 - Batch-split multiple notes from the Browser.
 - Support for remote AI APIs (OpenAI, Hugging Face Inference, or any compatible HTTP endpoint) and configurable model settings.
-
----
-
-## Screenshots
-(Replace these with actual screenshots of the add-on UI)
-- Editor split dialog
-- Browser batch-split flow
-- Preview of generated Q&A notes
 
 ---
 
