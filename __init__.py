@@ -920,5 +920,11 @@ def on_profile_did_open() -> None:
             # If something unexpected happens, we simply skip custom config action.
             pass
 
+def add_tools_menu_action() -> None:
+    action = QAction(MENU_ACTION, mw)
+    action.triggered.connect(split_long_answers_for_query)
+    mw.form.menuTools.addAction(action)
+
+gui_hooks.profile_did_open.append(lambda: add_tools_menu_action())
 
 gui_hooks.profile_did_open.append(on_profile_did_open)
